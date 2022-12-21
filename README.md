@@ -1,1 +1,2 @@
-# smsConformation
+# smsConformation component
+
