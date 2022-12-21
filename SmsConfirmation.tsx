@@ -148,7 +148,7 @@ const SmsConfirmation = ({
           />
         )}
         <CircleLoader size={36} />
-        {isOTPRenewLoading ? <Text>Запрос нового СМС-кода...</Text> : loaderChildren}
+        {isOTPRenewLoading ? <Text>Requesting a new SMS code...</Text> : loaderChildren}
       </div>
     );
   }
@@ -156,7 +156,7 @@ const SmsConfirmation = ({
   return (
     <div className={styles.wrap}>
       <HeaderPage
-        title={'СМС-подтверждение'}
+        title={'SMS-confirmation'}
         leftIconVariant={'back'}
         onLeftIconClick={handleBackClick}
       />
